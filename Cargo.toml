@@ -1,0 +1,15 @@
+[package]
+name = "rust-akumuli-sys"
+version = "0.1.0-alpha.0"
+authors = ["Kenan Sulayman <kenan@sig.dev>"]
+description = "Low level bindings to Akumuli."
+repository = "https://github.com/19h/rust-akumuli-sys"
+license = "MIT"
+readme = "readme.md"
+edition = "2018"
+
+#[[example]]
+#name = "example"
+
+[build-dependencies]
+bindgen = "0.54.1"
